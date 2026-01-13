@@ -3,7 +3,7 @@
 require_relative "lib/codice_fiscale/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "codice_fiscale"
+  spec.name        = "codicefiscale_ruby"
   spec.version     = CodiceFiscale::VERSION
   spec.authors     = ["Amshu Pokharel"]
   spec.email       = ["pokharelamshu@gmail.com"]
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.license     = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "https://github.com/udira-re/codice-fiscale"
+spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["homepage_uri"]     = spec.homepage
   spec.metadata["source_code_uri"]  = "https://github.com/udira-re/CF-gem-.git"
   spec.metadata["changelog_uri"]    = "https://github.com/udira-re/codice-fiscale/blob/main/CHANGELOG.md"
