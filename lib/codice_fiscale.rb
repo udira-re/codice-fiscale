@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "codice_fiscale/version"
-require_relative "codice_fiscale/place_lookup"
-require_relative "codice_fiscale/generator"
-require_relative "codice_fiscale/validator"
+require_relative 'codice_fiscale/version'
+require_relative 'codice_fiscale/place_lookup'
+require_relative 'codice_fiscale/generator'
+require_relative 'codice_fiscale/validator'
 
 module CodiceFiscale
   # Generator class to create Italian and foreign Codice Fiscale codes
@@ -31,7 +31,7 @@ module CodiceFiscale
       end
 
       # Validate CF against stored ones
-      def validate(code)
+      def validate?(code)
         @generated_cfs.value?(code)
       end
 
