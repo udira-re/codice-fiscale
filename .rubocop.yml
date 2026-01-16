@@ -1,16 +1,26 @@
 AllCops:
-  TargetRubyVersion: 2.6
-
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
+  TargetRubyVersion: 2.7
+  NewCops: enable
+  SuggestExtensions: false
 
 Layout/LineLength:
   Max: 120
+  IgnoredPatterns: ['\A#', '\A\s*#']
 
 Metrics/BlockLength:
-  Max: 50
+  ExcludedMethods: ['describe', 'context', 'it', 'let', 'before']
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/ClassLength:
+  Max: 150
+
+Metrics/MethodLength:
+  Max: 30
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/FrozenStringLiteralComment:
+  Enabled: false

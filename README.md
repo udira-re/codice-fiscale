@@ -1,15 +1,12 @@
-# CodiceFiscaleRuby
+# CodiceFiscale Ruby
 
-[![Gem Version](https://badge.fury.io/rb/codicefiscale_rubyall.svg)](https://badge.fury.io/rb/codicefiscale_rubyall)
+[![Gem Version](https://badge.fury.io/rb/codicefiscale_ruby.svg)](https://badge.fury.io/rb/codicefiscale_ruby)
 
-A Ruby gem to **generate and validate Italian and foreign Codice Fiscale (CF)**.  
-It allows you to generate a CF based on personal details and validate existing CF codes.
-
----
+A Ruby gem for generating and validating Italian fiscal codes (Codice Fiscale).
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "codicefiscale_rubyall"
+gem 'codicefiscale_ruby'
