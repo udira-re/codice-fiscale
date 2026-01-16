@@ -4,8 +4,13 @@
 require "bundler/setup"
 require "codice_fiscale"
 
-# You can add fixtures and/or initialization code here to make experimenting
-# with your gem easier. You can also use a different console, if you like.
+puts "Welcome to CodiceFiscaleRuby console!"
+puts "You can generate a Codice Fiscale like this:"
+puts 'cf = CodiceFiscale.generate(first_name: "Mario", last_name: "Rossi", gender: "M", date_of_birth: Date.new(1980, 5, 20), place_of_birth: "ROMA")'
+puts "cf" 
+puts
+puts "Or validate a CF like this:"
+puts 'CodiceFiscale::Validator.valid?("RSSMRA80A20H501X")'
 
 require "irb"
-IRB.start(__FILE__)
+IRB.start
