@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    codice_fiscale (0.1.0)
+    codicefiscale_ruby (0.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -57,7 +57,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  codice_fiscale!
+  codicefiscale_ruby!
   rake (~> 13.0)
   rspec
   rubocop (~> 1.21)
